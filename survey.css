@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+    background-color: white;
+}
+
+legend{
+    border: 2px solid;
+    border-style: outset;
+    border-color: black;
+}
+
+.sub-button{
+    background-color: white;
+    block-size: 40px;
+    width: 100px;
+    border: 5px;
+    border-style: outset;
+}
+
+.fieldset0{
+    background-color: aquamarine;
+    border: 3px solid;
+    border-radius: 15px;
+}
+.fieldset1{
+    width: 600px;
+    padding: 12px;
+    margin: 10px;
+    background-color: white;
+    border: 1px solid;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.fieldset2{
+    width: 600px;
+    padding: 12px;
+    margin: 10px;
+    background-color: aquamarine;
+    border: 1px solid;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.fieldset3{
+    width: 600px;
+    padding: 12px;
+    margin: 10px;
+    background-color: white;
+    border: 1px solid;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.fieldset4{
+    width: 600px;
+    padding: 12px;
+    margin: 10px;
+    background-color: aquamarine;
+    border: 1px solid;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
