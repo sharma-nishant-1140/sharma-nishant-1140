@@ -1,39 +1,94 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>FORM</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="survey.css">
+    <title>QUICK SURVEY</title>
 </head>
-
 <body>
+    <fieldset class="fieldset0">
+    <h2>SURVEY</h2>
+    </fieldset>
+    <form class="form1" action="https://enw7u145b8im9.x.pipedream.net/" method="post">
 
-    <form class="formlay">
-        <hr>
-        <h3>SIGN UP</h3>
-        <hr><br>
-        <label for="fname">First Name: </label><br>
-        <input type="text" id="fname"><br>
-        <label for="lname">Last Name: </label><br>
-        <input type="text" id="lname"><br>
-        <label for="email">Email: </label><br>
-        <input type="email" id="email"><br>
-        <label for="pass">Password: </label><br>
-        <input type="password" id="pass"><br>
-        <label for="cno">Contact no: </label><br>
-        <input type="number" id="cno"><br>
-        <p>Gender:</p>
-        <label for="gender_m">Male</label>
-        <input type="radio" id="gender_m" name="gender" value="Male">
-        <label for="gender_f">Female</label>
-        <input type="radio" id="gender_f" name="gender" value="Female"><br><br>
-        <label for="dob">Date Of Birth:</label>
-        <input type="date" id="dob"><br><br>
-        <input type="checkbox" value="Accept">I Accept to the terms of use<br><br><br>
-        <form action="Details.html">
-            <input type="submit" class="button1">
-            <input type="reset" class="button2">
-        </form>
+        <div class="name-section" align="center">
+            <fieldset class="fieldset1">
+                <legend align="center"><b>NAME</b></legend>
+                <label for="fname">First Name:</label><br>
+                <input type="text" id="fname" name="fname" required><br>
+                <label for="lname">Last Name:</label><br>
+                <input type="text" name="lname" id="lname" required><br>
+            </fieldset>
+        </div>
+
+        <div align="center">
+            <fieldset class="fieldset2">
+                <legend align="center"><b>ADDRESS</b></legend>
+                <label for="street"></label>
+                <input type="text" name="street" placeholder="Street" required><br><br>
+                <input type="text" name="city" placeholder="City" required><br><br>
+                <input type="text" name="state" placeholder="State" required><br><br>
+                <input type="number" name="pinc" placeholder="Pin Code" required>
+            </fieldset>
+        </div>
+
+        <div align="center">
+            <fieldset class="fieldset3">
+                <legend align="center"><b>CONTACT DETAILS</b></legend>
+                <label for="phno">Phone no:</label><br>
+                <input type="number" name="phno" id="phno" required>
+            </fieldset>
+        </div>
+
+        <div align="center">
+            <fieldset align="center" class="fieldset4">
+                <legend><b>RATE US</b></legend>
+                <table align="center">
+                    <td bgcolor="white">
+                        <fieldset align="right">
+                        <label for="qop"><b>Quality Of Products Received:</b></label><hr>
+                        <label for="exc1">Excellent</label>
+                        <input type="radio" name="qop" id="exc1" required><br>
+                        <label for="good1">Good</label>
+                        <input type="radio" name="qop" id="good1" required><br>
+                        <label for="bad1">Bad</label>
+                        <input type="radio" name="qop" id="bad1" required>
+                        </fieldset>
+                    </td>
+                    <td bgcolor="white">
+                        <fieldset align="right">
+                        <label for="vom"><b>Value For Money:</b></label><hr>
+                        <label for="exc2">Excellent</label>
+                        <input type="radio" name="vom" id="exc2" required><br>
+                        <label for="good2">Good</label>
+                        <input type="radio" name="vom" id="good2" required><br>
+                        <label for="bad2">Bad</label>
+                        <input type="radio" name="vom" id="bad2" required>
+                        </fieldset>
+                    </td>
+                    <td bgcolor="white">
+                        <fieldset align="right">
+                        <label for="del"><b>Delivery:</b></label><hr>
+                        <label for="exc3">Excellent</label>
+                        <input type="radio" name="del" id="exc3" required><br>
+                        <label for="good3">Good</label>
+                        <input type="radio" name="del" id="good3" required><br>
+                        <label for="bad3">Bad</label>
+                        <input type="radio" name="del" id="bad3" required>
+                        </fieldset>
+                    </td>
+                </table>
+
+            </fieldset>
+        </div>
+
+        <div align="center">
+            <br><input type="submit" name="submit" class="sub-button">
+        </div>
+
     </form>
+    
 </body>
-
 </html>
