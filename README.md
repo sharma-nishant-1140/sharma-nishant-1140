@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @sharma-nishant-1140
 - 👀 I’m interested in CODING 
-- 🌱 I’m currently learning C LANGUAGE
+- 🌱 I’m currently learning C++ LANGUAGE
 - 💞️ I’m looking to WORK MYSELF
 - 📫 How to reach me JUPITER
 
